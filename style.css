@@ -100,5 +100,14 @@ input::placeholder {
     font-weight: bold;
 }
 
+.info {
+    margin-left: 25px;
+    display: flex;
+}
+
+.fa-info {
+    border: lightgray 1px solid;
+    padding: 12px;
+}
 
 
