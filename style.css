@@ -5,7 +5,7 @@
 
 body {
   margin: auto;
-  max-width: 1440px;
+  max-width: 1320px;
   font-size: 1em;
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
@@ -37,7 +37,7 @@ header a:hover {
 }
 
 nav {
-  width: 25%;
+  width: 30%;
 }
 
 nav ul {
@@ -136,7 +136,7 @@ button {
 
 .type-filtre:hover {
   background-color: cornflowerblue;
-  color: cyan;
+  color: floralwhite;
   cursor: pointer;
   transition: 0.7s;
 }
@@ -184,16 +184,23 @@ button {
 /* HEBERGEMENTS ET POPULAIRES */
 
 .hebergements-populaires {
-  background-color: #f2f2f2;
   display: flex;
 }
 
 /* HEBERGEMENTS */
 
+.hebergements {
+  max-width: 880px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin-right: 35px;
+}
+
 .hebergements h2 {
-  padding-top: 35px;
-  margin-bottom: 20px;
-  font-size: 1.2em;
+  padding-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 25px;
+  font-size: 1.3em;
   font-weight: bolder;
 }
 
@@ -201,14 +208,15 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: #0065fc solid 1px;
-  height: 420px;
+  height: 450px;
+  margin-bottom: 20px;
 }
 
 .carte-hebergement {
   border: white 5px solid;
   border-radius: 15px;
   background-color: white;
+  box-shadow: 2px 2px 7px lightgray;
 }
 
 .hebergements-populaires li {
@@ -246,16 +254,18 @@ button {
   background-image: url("images/hebergements/4_small/hotel-chez-amina.jpg");
 }
 
-.dimensions {
-  width: 242px;
-  height: 113px;
+.dimensions-hebergements {
+  width: 240px;
+  height: 112px;
   background-position: center;
   background-size: cover;
   border-radius: 12px 12px 0 0;
+  margin-bottom: 10px;
 }
 
 .description-carte-hebergement {
   margin-left: 15px;
+  font-size: 0.8em;
 }
 
 .description-carte-hebergement ul {
@@ -263,17 +273,104 @@ button {
 }
 
 .description-carte-hebergement h3 {
-  padding-bottom: 5px;
+  padding-bottom: 7px;
 }
 
 .description-carte-hebergement p {
-  padding-bottom: 5px;
+  padding-bottom: 7px;
 }
 
-.description-carte-hebergement div {
-  padding-bottom: 5px;
+.description-carte-hebergement i {
+  margin-bottom: 5px;
+  padding-left: 1px;
+  font-size: 0.9em;
 }
 
 .tarif {
   font-weight: bold;
+}
+
+ul .etoile-grise {
+  color: #f2f2f2;
+}
+
+.afficher-plus {
+  margin-left: 40px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* POPULAIRES */
+
+.populaires {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+
+.head-populaires {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin-bottom: 25px;
+}
+
+.head-populaires h2 {
+  font-size: 1.3em;
+}
+
+/* .head-populaires div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.head-populaires i {
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.groupe-populaires {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.groupe-populaires a {
+  display: flex;
+  border: white 5px solid;
+  background-color: white;
+  box-shadow: 2px 2px 7px lightgray;
+  border-radius: 15px;
+}
+
+.hotel-le-soleil-du-matin {
+  background-image: url("images/hebergements/4_small/hotel-le-soleil-du-matin.jpg");
+}
+.au-coeur-de-l-eau {
+  background-image: url("images/hebergements/4_small/au-coeur-de-l-eau-chambres-d-hotes.jpg");
+}
+
+.hotel-tout-bleu-et-blanc {
+  background-image: url("images/hebergements/4_small/hotel-tout-bleu-et-blanc.jpg");
+}
+
+.dimensions-populaires {
+  width: 125px;
+  height: 135px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px 0 0 12px;
+}
+
+.description-carte-populaire {
+  margin-left: 15px;
+  padding-right: 35px;
+}
+
+.description-carte-populaire ul {
+  display: flex;
 }
