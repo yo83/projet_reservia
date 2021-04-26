@@ -107,6 +107,7 @@ button {
 
 .filtres {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 35px;
 }
@@ -201,8 +202,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: #0065fc solid 1px;
-  height: 420px;
 }
 
 .carte-hebergement {
@@ -225,28 +224,50 @@ button {
 
 .cannebiere {
   background-image: url("images/hebergements/4_small/auberge-la-cannebière.jpg");
+  width: 242px;
+  height: 113px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px 12px 0 0;
 }
 .hotel-du-port {
   background-image: url("images/hebergements/4_small/hotel-du-port.jpg");
+  width: 242px;
+  height: 113px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px 12px 0 0;
 }
 
 .hotel-les-mouettes {
   background-image: url("images/hebergements/4_small/hotel-les-mouettes.jpg");
+  width: 242px;
+  height: 113px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px 12px 0 0;
 }
 
 .hotel-de-la-mer {
   background-image: url("images/hebergements/4_small/hotel-de-la-mer.jpg");
+  width: 242px;
+  height: 113px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px 12px 0 0;
 }
 
 .auberge-le-panier {
   background-image: url("images/hebergements/4_small/auberge-le-panier.jpg");
+  width: 242px;
+  height: 113px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px 12px 0 0;
 }
 
 .hotel-chez-amina {
   background-image: url("images/hebergements/4_small/hotel-chez-amina.jpg");
-}
-
-.dimensions {
   width: 242px;
   height: 113px;
   background-position: center;
@@ -262,16 +283,10 @@ button {
   display: flex;
 }
 
-.description-carte-hebergement h3 {
-  padding-bottom: 5px;
-}
-
-.description-carte-hebergement p {
-  padding-bottom: 5px;
-}
-
-.description-carte-hebergement div {
-  padding-bottom: 5px;
+.description-carte-hebergement h3,
+p,
+div {
+  margin-bottom: 5px;
 }
 
 .tarif {
