@@ -305,9 +305,9 @@ ul .etoile-grise {
 .populaires {
   background-color: #f2f2f2;
   border-radius: 20px;
-  /* display: flex;
+  width: 405px;
+  display: flex;
   justify-content: center;
-  flex-wrap: wrap; */
 }
 
 .head-populaires {
@@ -315,17 +315,12 @@ ul .etoile-grise {
   justify-content: space-between;
   padding-top: 40px;
   margin-bottom: 25px;
+  max-width: 342px;
 }
 
 .head-populaires h2 {
   font-size: 1.3em;
 }
-
-/* .head-populaires div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .head-populaires i {
   color: black;
@@ -335,8 +330,9 @@ ul .etoile-grise {
 
 .groupe-populaires {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 342px;
+  height: 540px;
 }
 
 .groupe-populaires a {
