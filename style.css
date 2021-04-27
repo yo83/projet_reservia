@@ -10,6 +10,14 @@ body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 /* HEADER */
 header {
   margin-top: 35px;
@@ -20,7 +28,6 @@ header {
 
 nav a {
   color: #0065fc;
-  text-decoration: none;
   padding-left: 15px;
   padding-right: 15px;
   font-weight: bold;
@@ -43,10 +50,6 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
-}
-
-nav li {
-  list-style: none;
 }
 
 /* ARTICLE */
@@ -185,6 +188,7 @@ button {
 
 .hebergements-populaires {
   display: flex;
+  margin-bottom: 55px;
 }
 
 /* HEBERGEMENTS */
@@ -217,14 +221,6 @@ button {
   border-radius: 15px;
   background-color: white;
   box-shadow: 2px 2px 7px lightgray;
-}
-
-.hebergements-populaires li {
-  list-style: none;
-}
-
-.hebergements-populaires a {
-  text-decoration: none;
 }
 
 .hebergements-populaires i {
@@ -291,7 +287,7 @@ button {
 }
 
 ul .etoile-grise {
-  color: #f2f2f2;
+  color: lightgray;
 }
 
 .afficher-plus {
@@ -384,4 +380,115 @@ ul .etoile-grise {
 .description-carte-populaire i {
   padding-right: 2px;
   font-size: 0.9em;
+}
+
+/* ACTIVITES A MARSEILLE */
+
+.activites {
+  margin-bottom: 30px;
+}
+
+.activites h2 {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.activites h3 {
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.lieux-activites {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-vieux-port {
+  width: 303px;
+  height: 388px;
+  background-image: url("images/activites/4_small/vieux-port.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 17px 17px 0 0;
+}
+
+.img-fort-de-pomegues {
+  background-image: url("images/activites/4_small/fort-de-pomegues.jpg");
+  width: 303px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 17px 17px 0 0;
+}
+
+.img-iles-du-frioul {
+  background-image: url("images/activites/4_small/ile-du-frioul.jpg");
+  width: 303px;
+  height: 108px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 17px 17px 0 0;
+}
+
+.img-parc-calanques {
+  background-image: url("images/activites/4_small/parc-national-des-calanques.jpg");
+  width: 303px;
+  height: 388px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 17px 17px 0 0;
+}
+
+.img-notre-dame {
+  background-image: url("images/activites/4_small/notre-dame.jpg");
+  width: 303px;
+  height: 138px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 17px 17px 0 0;
+}
+
+.img-parc-longchamp {
+  background-image: url("images/activites/4_small/parc-longchamp.jpg");
+  width: 303px;
+  height: 152px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 17px 17px 0 0;
+}
+
+.double-carte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ombre {
+  box-shadow: lightgray 1px 1px 10px;
+  border-radius: 17px;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 58px;
+  background-color: rgb(242, 242, 242);
+}
+
+.bas-de-page {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+
+.nos-hebergements {
+  margin-right: 60px;
+}
+
+.assistance {
+  padding-right: 368px;
 }
