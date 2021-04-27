@@ -378,7 +378,7 @@ ul .etoile-grise {
 }
 
 .description-carte-populaire i {
-  padding-right: 2px;
+  padding-right: 1px;
   font-size: 0.9em;
 }
 
@@ -473,11 +473,18 @@ ul .etoile-grise {
 
 footer {
   margin-top: 58px;
-  background-color: rgb(242, 242, 242);
+}
+
+.footer-background {
+  width: 100%;
   height: 200px;
+  position: absolute;
+  left: 0;
+  background-color: #f2f2f2;
 }
 
 .bas-de-page {
+  position: relative;
   padding-top: 30px;
   width: 75%;
   display: flex;
@@ -486,9 +493,12 @@ footer {
 
 .footer-categorie h3 {
   font-size: 1em;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .footer-categorie p {
   padding-bottom: 10px;
+}
+
+@media screen and (max-width: 375px) {
 }
