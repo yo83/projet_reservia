@@ -333,14 +333,17 @@ ul .etoile-grise {
   flex-wrap: wrap;
   max-width: 342px;
   height: 540px;
+  font-size: 0.8em;
 }
 
-.groupe-populaires a {
+.carte-populaire {
   display: flex;
+  justify-content: space-between;
   border: white 5px solid;
   background-color: white;
   box-shadow: 2px 2px 7px lightgray;
   border-radius: 15px;
+  width: 332px;
 }
 
 .hotel-le-soleil-du-matin {
@@ -363,10 +366,22 @@ ul .etoile-grise {
 }
 
 .description-carte-populaire {
-  margin-left: 15px;
-  padding-right: 35px;
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .description-carte-populaire ul {
   display: flex;
+}
+
+.description-carte-populaire p {
+  position: relative;
+  top: -15px;
+}
+
+.description-carte-populaire i {
+  padding-right: 2px;
+  font-size: 0.9em;
 }
