@@ -474,21 +474,21 @@ ul .etoile-grise {
 footer {
   margin-top: 58px;
   background-color: rgb(242, 242, 242);
+  height: 200px;
 }
 
 .bas-de-page {
+  padding-top: 30px;
+  width: 75%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin-left: 50px;
-  padding-top: 24px;
-  padding-bottom: 36px;
 }
 
-.nos-hebergements {
-  margin-right: 60px;
+.footer-categorie h3 {
+  font-size: 1em;
+  padding-bottom: 10px;
 }
 
-.assistance {
-  padding-right: 368px;
+.footer-categorie p {
+  padding-bottom: 10px;
 }
