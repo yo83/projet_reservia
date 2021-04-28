@@ -106,6 +106,10 @@ button {
   border: none;
 }
 
+.mini-button {
+  display: none;
+}
+
 /* FILTRES */
 
 .filtres {
@@ -212,7 +216,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: 450px;
+  min-height: 450px;
   margin-bottom: 20px;
 }
 
@@ -501,4 +505,146 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    font-size: 0.9em;
+  }
+
+  .search {
+    justify-content: center;
+  }
+
+  button {
+    display: none;
+  }
+
+  .mini-button {
+    display: initial;
+    color: white;
+    border-radius: 20px;
+    margin-left: -20px;
+  }
+
+  header {
+    border-bottom: rgb(242, 242, 242) 3px solid;
+    flex-direction: column;
+  }
+
+  nav ul {
+    justify-content: space-evenly;
+  }
+
+  .sinscrire {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+  }
+
+  article {
+    margin-left: 17.5px;
+  }
+
+  .filtres {
+    flex-wrap: wrap;
+    margin-left: 17.5px;
+  }
+
+  .groupe-filtre {
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .type-filtre {
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
+  .filtres h2 {
+    margin-bottom: 20px;
+  }
+
+  .hebergements-populaires {
+    flex-wrap: wrap-reverse;
+    margin: auto;
+  }
+
+  .populaires {
+    border-radius: 0;
+    height: 590px;
+  }
+
+  .groupe-populaires {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .carte-pop-resp {
+    margin-bottom: 15px;
+  }
+
+  .hebergements {
+    border-radius: 0;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+
+  .hebergements h2 {
+    margin-left: 17.5px;
+  }
+
+  .dimensions-hebergements {
+    width: 330px;
+    height: 112px;
+  }
+
+  .carte-hebergement {
+    margin-bottom: 15px;
+  }
+
+  .afficher-plus {
+    margin-left: 17.5px;
+  }
+
+  .activites {
+    margin-bottom: -30px;
+  }
+  .activites h2 {
+    margin-left: 17.5px;
+  }
+
+  .lieux-activites {
+    flex-direction: column;
+    margin-left: 17.5px;
+  }
+
+  .lieux-activites li {
+    width: 340px;
+  }
+
+  .img-parc-longchamp,
+  .img-fort-de-pomegues,
+  .img-iles-du-frioul,
+  .img-notre-dame,
+  .img-parc-calanques,
+  .img-vieux-port {
+    width: 340px;
+    height: 134px;
+  }
+
+  .carte-activite {
+    margin-bottom: 20px;
+  }
+
+  .bas-de-page {
+    flex-direction: column;
+    margin-left: 17.5px;
+  }
+
+  .footer-categorie {
+    margin-bottom: 30px;
+  }
+
+  .footer-background {
+    height: 400px;
+  }
 }

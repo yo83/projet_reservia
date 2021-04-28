@@ -20,7 +20,7 @@
                 <ul>
                     <li><a href="#ancre-hebergements">Hébergements</a></li>
                     <li><a href="#ancre-activites">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
+                    <li class="sinscrire"><a href="#">S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
@@ -41,7 +41,8 @@
             <form>
                 <input type="text" placeholder="Marseille, France">
             </form>
-            <button>Rechercher</button>
+            <button type="submit">Rechercher</button>
+            <button class="mini-button" type="submit"><i class="fas fa-search"></i></button>
         </div>
 
                         <!-- Filtres -->
@@ -216,7 +217,7 @@
                         </div>
                     </div>
                     <ul class="groupe-populaires">
-                        <li>
+                        <li class="carte-pop-resp">
                             <a href="#" title="Hôtel Le soleil du matin carte-populaires" class="carte-populaire">
                                 <div class="hotel-le-soleil-du-matin dimensions-populaires"></div>
                                 <div class="description-carte-populaire">
@@ -232,7 +233,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="carte-pop-resp">
                             <a href="#" title="Au coeur de l'eau Chambres d'hôtes" class="carte-populaire">
                                 <div class="au-coeur-de-l-eau dimensions-populaires"></div>
                                 <div class="description-carte-populaire ">
@@ -248,7 +249,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="carte-pop-resp">
                             <a href="#" title="Hôtel Tout bleu et Blanc" class="carte-populaire">
                                 <div class="hotel-tout-bleu-et-blanc dimensions-populaires"></div>
                                 <div class="description-carte-populaire">
@@ -274,34 +275,34 @@
         <section class="activites" id="ancre-activites">
             <h2>Activités à Marseille</h2>
             <ul class="lieux-activites">
-                <li class="ombre">
+                <li class="ombre carte-activite">
                     <a href="#">
                         <div class="img-vieux-port"></div>
                         <h3>Vieux Port</h3>
                     </a>
                 </li>
                 <li class="double-carte">
-                    <a href="#" class="ombre">
+                    <a href="#" class="ombre carte-activite">
                         <div class="img-fort-de-pomegues"></div>
                         <h3>Fort de Pomègues</h3>
                     </a>
-                    <a href="#" class="ombre">
+                    <a href="#" class="ombre carte-activite">
                         <div class="img-iles-du-frioul"></div>
                         <h3>Îles du Frioul</h3>
                     </a>
                 </li>
-                <li  class="ombre">
+                <li  class="ombre carte-activite">
                     <a href="#">
                         <div class="img-parc-calanques"></div>
                         <h3>Parc National des Calanques</h3>
                     </a>
                 </li>
                 <li class="double-carte">
-                    <a href="#" class="ombre">
+                    <a href="#" class="ombre carte-activite">
                         <div class="img-notre-dame"></div>
                         <h3>Notre-Dame-de-la-Garde</h3>
                     </a>
-                    <a href="#" class="ombre">
+                    <a href="#" class="ombre carte-activite">
                         <div class="img-parc-longchamp"></div>
                         <h3>Parc Longchamp</h3>
                     </a>
@@ -313,14 +314,14 @@
             
         <footer>
             <div class="footer-background"></div>
-            <div class="bas-de-page footer-categorie">
-                <div class="a-propos">
+            <div class="bas-de-page">
+                <div class="a-propos  footer-categorie">
                     <h3>A propos</h3>
                     <p><a href="#">Fonctionnement du site</a></p>
                     <p><a href="#">Conditions générales de vente</a></p>
                     <p><a href="#">Données et confidentialité</a></p>
                 </div>
-                <div class="nos-hebergements footer-catagorie">
+                <div class="nos-hebergements footer-categorie">
                     <h3>Nos hébergements</h3>
                     <p><a href="#">Charte qualité</a></p>
                     <p><a href="#">Soumettre votre hôtel</a></p>
